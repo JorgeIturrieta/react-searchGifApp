@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en <GifGridItem/> Debe recibir dos argumentos obligatorios 1`] = `
+<div
+  className="card animate__animated animate__swing"
+>
+  <p>
+     
+    Titulo-Test
+     
+  </p>
+  <img
+    alt="Titulo-Test"
+    src="https://localhost/algo.jpg"
+  />
+</div>
+`;

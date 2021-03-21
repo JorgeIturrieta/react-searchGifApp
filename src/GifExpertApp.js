@@ -4,14 +4,11 @@ import { AddCategory } from './components/AddCategory'
 import { GifGrid } from './components/GifGrid';
 
 
-export const GifExpertApp = () => {
+export const GifExpertApp = ( {defaultCategories = []}) => {
 
 
-    const [categories, setCategories] = useState(['One Punch']);
-    /*    const handleAdd = () => {
-           setCategories([...categories, 'Ataque a los titanes']);
-           setCategories(cats => [...cats ,'Ataque a los titanes'])
-       } */
+    const [categories, setCategories] = useState(defaultCategories);
+
     return (
         <>
             <h1>GifExpertApp</h1>
