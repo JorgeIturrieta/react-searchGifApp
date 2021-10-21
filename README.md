@@ -1,5 +1,8 @@
 
-# Pasos parar realzar test para react 17.
+# Search Gif App 
+## Descripcion
+Esta aplicacion muestra 10 gifs que coinciden con el parametro de busqueda.
+## Pasos parar realzar test para react 17.
 
 1. Instalamos Enzyme : npm install --save-dev enzyme
 
